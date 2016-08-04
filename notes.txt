@@ -1,0 +1,55 @@
+shift + f9 - debugowanie
+f9 - kontynuacja po breakpoint
+ctrl + f2 - zatrzymaj uruchamianie/debugowanie
+alt + enter - rozwinięcie sugestii przy ostrzeżeniu
+ctrl + alt + enter - nowa linia przed bieżącą linią
+shift + enter - nowa linia po bieżącej linii
+ctrl + alt + v - opakowanie wyrażenia w zmienną
+ctrl + w - zaznaczenia słowa pod kursorem
+ctrl + shift + u - zaznaczenie do uppercase
+ctrl + shift + enter - dokończ statement
+ctrl + backspace - usuwanie do początku wyrazu
+ctrl + delete - usuwanie do końca wyrazu
+f4 - table editor
+ctrl + enter - submit new row
+ctrl + s - save all
+route + tab - generuje wpis ze ścieżką route
+alt + f12 - terminal w pyCharm
+
+emmet (+tab):
+script:src
+link
+m0,2,15
+p15,15,15
+bb
+mb
+pb
+
+konsola python w pyCharm:
+
+# from pin_clone import Pin
+# pins = Pin.query.all()
+# print(pins)
+# print(pins[0].title)
+
+# from pin_clone import Pin
+# from pin_clone import db
+# pin = Pin(title="Second", image="pin.png")
+# db.session.add(pin)
+# db.session.commit()
+
+# dostajemy automatycznie taki endpoint
+# http://localhost:5000/api/pin
+
+bower install angular
+npm install -g bower
+
+debugowanie/edytowanie szablonów na żywo (frontend):
+instalacja pluginu jetbrains - live edit
+potrzebujemy w chrome wtyczkę JetBrains IDE Support
+tworzymy nową konfigurację debugowania dla JavaScript
+musimy mieć uruchomioną aplikację backend py/flask (dwa razy debug)
+przeglądarka nie odświeża, trzeba dać ctrl + f10 albo skonfigurować na Auto
+ctrl + alt + s
+Build, Execution, Deployment -> Debugger -> LiveEdit
+można też dać Run -> Reload in Browser
